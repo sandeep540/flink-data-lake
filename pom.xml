@@ -111,6 +111,12 @@
             <artifactId>flink-json</artifactId>
             <version>${flink.version}</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/com.haulmont.addon.datagen/datagen-global -->
+        <dependency>
+            <groupId>com.haulmont.addon.datagen</groupId>
+            <artifactId>datagen-global</artifactId>
+            <version>0.4.0</version>
+        </dependency>
 
         <!-- Adding jackson dependencies. They must be in the default scope (compile). -->
         <dependency>
